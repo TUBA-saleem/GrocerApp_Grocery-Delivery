@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@android:color/white">
+
+    <!-- Top Location Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp">
+
+    </LinearLayout>
+
+    <!-- Search Bar -->
+
+    <!-- Banner Slider -->
+
+    <!-- Section: Exclusive Offer -->
+
+    <EditText
+        android:id="@+id/searchStore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/locationBar"
+        android:layout_width="361dp"
+        android:layout_height="58dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/search_bar_background"
+        android:drawableStart="@android:drawable/ic_search_category_default"
+        android:drawablePadding="8dp"
+        android:hint="Search Store"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <!-- Bottom Navigation -->
+
+    <ViewPager2
+        android:id="@+id/bannerSlider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchStore"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bannerSlider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exclusive Offer"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <RecyclerView
+        android:id="@+id/exclusiveOfferList"
+        app:layout_constraintTop_toBottomOf="@id/exclusiveOfferTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        app:itemIconTint="@color/nav_item_color"
+        app:itemTextColor="@color/nav_item_color"
+        app:menu="@menu/bottom_navigation_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@android:color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indonesia"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="190dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_location"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GrocerApp_Grocery Delivery</string>
+    <string name="btn_english">English</string>
+    <string name="btn_urdu">Urdu</string>
+    <string name="login">Login</string>
+    <string name="welcome_grocerapp">Welcome to GrocerApp</string>
+    <string name="description">Delivering 5000+ products including groceries, fruits, veg. &amp; meats to your door.</string>
+    <string name="set_location">Set your delivery location</string>
+    <string name="current_location">Use my current location</string>
+    <string name="manual_location">Set location manually</string>
+    <string name="english">English</string>
+    <string name="set_location_manually">Set location manually</string>
+    <string name="use_my_current_location">Use my current location</string>
+    <string name="set_your_delivery_location">Set your delivery location</string>
+    <string name="delivering_5000_products_including_groceries_nfruits_veg_meats_to_your_door"><![CDATA[Delivering 5000+ products including groceries, \nfruits, veg. & meats to your door.]]></string>
+    <string name="welcome_to_grocerapp">Welcome to GrocerApp</string>
+    <string name="continue_via_number">Continue via number</string>
+    <string name="easy_safe_way_to_connect"><![CDATA[Easy & safe way to connect]]></string>
+    <string name="lets_get_connected">Lets get connected</string>
+    <string name="enter_your_mobile_number">Enter your mobile number</string>
+    <string name="enter_your_number_to_create_an_account_or_login">Enter your number to create an account or login</string>
+    <string name="_92">+ 92 -</string>
+    <string name="login_sign_up">Login/Sign up</string>
+</resources>

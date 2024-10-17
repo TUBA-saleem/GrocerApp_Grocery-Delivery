@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <?xml version="1.0" encoding="utf-8"?>
+
+
+
+        <!-- Language Selection -->
+        <LinearLayout
+            android:id="@+id/language_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </LinearLayout>
+
+        <!-- Login Button -->
+
+        <!-- Product Image -->
+
+        <!-- Welcome Text -->
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="36dp"
+            android:text="@string/login"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/grocer_product"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/language_selector" />
+
+        <!-- Subheading Text -->
+
+        <!-- Location Heading -->
+
+        <!-- Use Current Location Button -->
+
+        <!-- Set Location Manually Text -->
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/welcome_to_grocerapp"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/product_image" />
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/delivering_5000_products_including_groceries_nfruits_veg_meats_to_your_door"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_welcome" />
+
+        <TextView
+            android:id="@+id/tv_location_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="@string/set_your_delivery_location"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_description" />
+
+        <Button
+            android:id="@+id/btn_use_current_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="@string/use_my_current_location"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_location_heading" />
+
+        <TextView
+            android:id="@+id/tv_set_location_manually"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/set_location_manually"
+            android:textColor="@android:color/holo_orange_light"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_use_current_location" />
+
+        <Button
+            android:id="@+id/btn_english"
+            android:layout_width="59dp"
+            android:layout_height="34dp"
+            android:backgroundTint="@android:color/holo_orange_light"
+            android:text="@string/english"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+        <Button
+            android:id="@+id/btn_urdu"
+            android:layout_width="57dp"
+            android:layout_height="36dp"
+            android:text="@string/btn_urdu"
+            android:textColor="@android:color/black"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="26dp" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

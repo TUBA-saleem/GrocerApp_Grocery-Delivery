@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <!-- Title -->
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter_your_mobile_number"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_number_to_create_an_account_or_login"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Phone Input Field -->
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="4dp" />
+
+    <!-- Login Button -->
+
+    <EditText
+        android:id="@+id/etPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@android:drawable/ic_menu_call"
+        android:drawablePadding="8dp"
+        android:gravity="start"
+        android:hint="@string/_92"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FF5722"
+        android:enabled="false"
+        android:text="@string/login_sign_up"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

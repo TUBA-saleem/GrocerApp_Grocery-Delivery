@@ -1,0 +1,28 @@
+# GrocerApp
+
+Welcome to GrocerApp, a grocery delivery application designed to provide users with a seamless shopping experience right from their mobile devices. The app allows users to browse a wide range of products, set their delivery location, and get groceries delivered to their doorsteps.
+
+
+## Features
+
+- User-friendly interface for easy navigation.
+- Multi-language support (English and Urdu).
+- Phone number verification for user authentication.
+- Option to set delivery location (current or manual).
+- A wide range of grocery products available for delivery.
+
+## Technologies Used
+
+- Kotlin: The primary programming language used for Android development.
+- Android Studio: IDE for building the application.
+- XML: For designing the user interface.
+- Android SDK: Software development kit for Android apps.
+
+## Getting Started
+
+To get started with the GrocerApp, follow these steps:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/GrocerApp.git
+   cd GrocerApp
